@@ -29,6 +29,7 @@ html {
 }
 
 .btn {
+    display: inline-block;
     padding: 15px 16px;
     line-height: 1;
     font-size: 16px;
@@ -39,6 +40,11 @@ html {
     cursor: pointer;
 }
 
+.text-center {
+    text-align: center;
+}
+
+/* Header*/
 .header {
     height: 110px;
 }
@@ -63,4 +69,155 @@ html {
 
 .header-btn {
     margin-left: 80px;
+}
+
+/*Hero*/
+.hero-conteiner {
+padding-top: 120px;
+padding-bottom: 130px;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.section-hero-heading {
+    margin-bottom: 20px;
+}
+
+.section-hero-description {
+    margin-bottom: 30px;
+}
+
+.section-hero-btn-description {
+    margin-top: 10px;
+}
+
+/*What We Do*/
+.section-do {
+    padding-top: 140px;
+    padding-bottom: 100px;
+}
+
+.section-description {
+    margin-top: 25px;
+}
+
+.section-do-list {
+    display: flex;
+    margin-top: 50px;
+}
+
+.section-do-item {
+    flex: 1 1 25%;
+    outline: 3px solid red;
+}
+
+.section-do-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+/*Clients*/
+.section-clients {
+    padding-top: 90px;
+    padding-bottom: 100px;
+}
+
+.section-clients-list {
+    display: flex;
+}
+
+.section-clients-item {
+    flex: 1 1 33.33%;
+}
+
+.section-clients-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.section-clients-user {
+    display: flex;
+    align-items: center;
+}
+
+.section-clients-avatar {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+    border: 2px solid #3172b9;
+    border-radius: 50%;
+}
+
+/*Contacts*/
+.section-contacts {
+    padding-top: 85px;
+    padding-bottom: 95px;
+}
+.section-contacts-list {
+    display: flex;
+    margin-top: 43px;
+}
+
+.section-contacts-item {
+    flex: 1 1 33.33%;
+}
+
+.section-contacts-info {
+    max-width: 250px;
+}
+
+.section-contacts-icon {
+    display: block;
+    height: 26px;
+    margin-bottom: 25px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: auto 100%;
+    background-color: transparent;
+}
+.section-contacts-icon-gps {
+    background-image: url("/img/gps.svg");
+}
+
+.section-contacts-icon-phone {
+    background-image: url("/img/phone.svg");
+}
+
+.section-contacts-icon-mail {
+    background-image: url("/img/mail.svg");
+    background-size: auto 19px;
+}
+
+.section-contacts-heading {
+    display: block;
+    margin-bottom: 40px;
+}
+
+/*Footer*/
+.footer {
+    height: 125px;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo {
+    margin-right: 25px;
+}
+
+.footer-nav-list {
+    display: flex;
+}
+
+.footer-nav-item:not(:last-child) {
+    margin-right: 35px;
 }
